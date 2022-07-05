@@ -53,7 +53,7 @@ export interface XMLHttpHooks {
 }
 ```
 
-### 工具函数
+### fetchUtils
 
 - createStream 将字符串转为可读流
 - replaceFetchDate 篡改 fetch 可读流数据
