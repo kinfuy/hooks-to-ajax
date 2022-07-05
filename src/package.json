@@ -1,0 +1,31 @@
+{
+  "name": "hooks-to-ajax",
+  "version": "1.0.0",
+  "description": "fetch xmlHttpRequest hooks",
+  "keywords": [
+    "ajax",
+    "fetch",
+    "xml",
+    "xmlhttprequest",
+    "hooks",
+    "proxy"
+  ],
+  "license": "MIT",
+  "author": "alqmc",
+  "main": "./lib/index.js",
+  "module": "./es/index.mjs",
+  "types": "types",
+  "exports": {
+    ".": {
+      "require": "./lib/index.js",
+      "import": "./es/index.mjs"
+    },
+    "./es": "./es/index.mjs",
+    "./lib": "./lib/index.js",
+    "./es/*.mjs": "./es/*.mjs",
+    "./es/*": "./es/*.mjs",
+    "./lib/*.js": "./lib/*.js",
+    "./lib/*": "./lib/*.js",
+    "./*": "./*"
+  }
+}

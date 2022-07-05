@@ -1,0 +1,5 @@
+{
+    "{src,build}/**/*.{js,ts,json,css,vue}": [
+        "eslint -c ./.eslintrc.js --fix --ext .jsx,.js,.tsx,.ts"
+    ]
+}
