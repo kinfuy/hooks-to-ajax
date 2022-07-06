@@ -16,14 +16,12 @@ export type AfterFetchRequest = (
   body: FetchInit,
   context: GlobalFetchContext
 ) => void;
-export type BeforeFetchResponse = (
-  context: GlobalFetchContext
-) => Promise<Response>;
+export type BeforeFetchResponse = (context: GlobalFetchContext) => void;
 
 export type AfterFetchResponse = (
   body: Response,
   context: GlobalFetchContext
-) => void;
+) => Promise<Response>;
 
 export interface FetchHooks {
   beforeFetchRequest?: BeforeFetchRequest;

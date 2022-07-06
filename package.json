@@ -4,6 +4,8 @@
   "description": "fetch xmlHttpRequest hooks",
   "main": "index.js",
   "scripts": {
+    "test": "vitest",
+    "coverage": "vitest run --coverage",
     "clear": "rimraf dist",
     "build": "gulp --require sucrase/register/ts --gulpfile build/gulpfile.ts",
     "update:version": "sucrase-node build/version.ts",
@@ -23,17 +25,20 @@
     "@commitlint/config-conventional": "^9.1.2",
     "@types/gulp": "^4.0.9",
     "@types/rimraf": "^3.0.2",
+    "c8": "^7.11.3",
     "compare-func": "^2.0.0",
     "conventional-changelog-cli": "^2.0.34",
     "conventional-changelog-custom-config": "^0.3.1",
     "cz-conventional-changelog": "^3.2.0",
     "gulp": "^4.0.2",
+    "happy-dom": "^6.0.2",
     "husky": "^8.0.1",
     "lint-staged": "^10.5.4",
     "prettier": "^2.6.2",
     "rimraf": "^3.0.2",
     "sucrase": "^3.21.0",
-    "typescript": "^4.6.3"
+    "typescript": "^4.6.3",
+    "vitest": "^0.17.0"
   },
   "config": {
     "commitizen": {
