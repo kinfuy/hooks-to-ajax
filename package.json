@@ -1,6 +1,6 @@
 {
   "name": "hooks-to-ajax",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "fetch xmlHttpRequest hooks",
   "main": "index.js",
   "scripts": {
